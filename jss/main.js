@@ -51,7 +51,7 @@ function initMap() {
         //grabs value of div with ID name of 'map' and assigns it to map_document
   map = new google.maps.Map(map_document,map_options);
       //using Map constructor- pass map_options and map div (aka map_document) to create 'map' object
-  geojson_url = "../json/main.json";
+  geojson_url = "https://raw.githubusercontent.com/Hunters2018/Final__project/master/json/main.json";
   console.log('loading geojson')
   map.data.loadGeoJson(geojson_url, null, loadMarkers) ;
 
