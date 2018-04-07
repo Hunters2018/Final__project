@@ -21,6 +21,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -73.986873,
+            40.764648 
+        ]
+      },
+      "properties": {
+        "description": "Bob the Drag Queen",
+        "title": "Industry",
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.342876,
           43.063217
         ]
