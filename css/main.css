@@ -69,6 +69,9 @@ nav {
 	margin-right: 12%;
 	background-color: white;
 	opacity: .95;
+	border-radius: 5px;
+	position: relative;
+	z-index: 1;
 }
 
 h2 {
@@ -89,30 +92,35 @@ h2 {
 .button {
 	display: inline-block;
 	height: 30px;
-	width: 140px;
+	width: 100%;
 	margin-top: 25px;
 	color: white;
 	background-color: #0AA2FF;
 	border-radius: 3px; 
-	margin-left: 2.5px;
-	margin-right: 2.5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	overflow: hidden;
 }
 
 .hoverbutton {
     position: relative;
     display: inline-block;
+    width: 16%;
+    vertical-align: top;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    top: 55px;
+    left: 0px;
 }
 
-.dropdown-content a {
+.dropdown-content li {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -120,24 +128,39 @@ h2 {
     z-index: 5;
 }
 
+input {
+	width: 100%;
+}
 
-.dropdown-content a:hover {background-color: #ddd}
+.goButton {
+	display: inline-block;
+	background-color: orange;
+	height: 30px;
+	color: white;
+	border-radius: 3px; 
+	vertical-align: top;
+	padding-top: 7px;
+	margin-top: 25px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+
+.dropdown-content li:hover {background-color: #ddd}
 
 .hoverbutton:hover .dropdown-content {
     display: block;}
 
-.hoverbutton:hover .dropbtn {
-    background-color: #3e8e41;
-}
 
-#search-button-text {
+
+.search-button-text {
 	float: left;
 	padding-top: 7px;
 	padding-left: 10px;
 	width: 90%;
 }
 
-#arrow {
+.arrow {
 	background-color: #026AA5;
 	width:10%;
 	float: right;
@@ -148,11 +171,12 @@ h2 {
 }
 
 #advanced_options {
-	padding-top: 9px;
-	margin-left: 80%;
+	margin-right: 3%;
 	text-decoration: none;
 	font-style: italic;
 	color: #0AA2FF;
+	float: right;
+	padding-top: 6px;
 }
 
 .map-section {
