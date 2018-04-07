@@ -21,7 +21,7 @@ function loadMarkers() {
       map: map
      });
     
-    var markerInfo = "<div><h3>" + titleText + "</h3><p>Performers: " + descriptionText + "</p></div>"
+    var markerInfo = "<div><h3>" + titleText + "</h3><p class='marketText'>Performers: " + descriptionText + "</p></div>"
     
     // by default the infoWindow for each marker will stay open unless manually closed
     // using setContent and opening the window whenever a marker is clicked will

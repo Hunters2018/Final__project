@@ -179,6 +179,10 @@ input {
 	padding-top: 6px;
 }
 
+.markerText{
+	color: green;
+}
+
 .map-section {
 	position: relative;
 }
