@@ -71,7 +71,7 @@ nav {
 	opacity: .95;
 	border-radius: 5px;
 	position: relative;
-	z-index: 1;
+	z-index: 100;
 }
 
 h2 {
@@ -125,7 +125,7 @@ h2 {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    z-index: 5;
+    z-index: 100;
 }
 
 input {
@@ -189,18 +189,34 @@ input {
 	width: 100%
 }
 
+#mapview {
+	color:#0AA2FF;
+}
+
 .list-section{
 	height:500px;
 	width: 100%;
 	left: 100%;
 	position: fixed;
 	background-color: green;
-	z-index:100;
+	z-index:10;
+	position: absolute;
+	top: 450px;
 }
 
-#listview {
-	color:red;
+
+
+.calendar-section{
+	height:500px;
+	width: 100%;
+	right: 100%;
+	position: fixed;
+	background-color: orange;
+	z-index:10;
+	position: absolute;
+	top: 450px;
 }
+
 
 #list-map-box {
 	position: absolute;
@@ -208,6 +224,7 @@ input {
 	right: 45px;
 	background-color: white;
 	padding: 10px;
+	z-index: 90;
 }
 
 #local-map-box{

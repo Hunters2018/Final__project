@@ -1,13 +1,27 @@
- 
 $("#listview").on("click", function(){
-  $(".list-section").animate({"left":0});
-  $(".list-section").animate({"top":0}, 1000);
+  $(".list-section").animate({"left":0}, 500);
+  $(".calendar-section").animate({"right":"100%"},500);
+  $("#listview").css({"color": "#0AA2FF"});
+  $("#calendarview").css({"color": "black"});
+  $("#mapview").css({"color": "black"});
 });
 
-
-$("nav").on("click", function(){
-  $("nav").css({"background-color": "blue"});
+$("#calendarview").on("click", function(){
+  $(".calendar-section").animate({"right":0}, 500);
+  $(".list-section").animate({"left":"100%"}, 500);
+  $("#listview").css({"color": "black"});
+  $("#calendarview").css({"color": "#0AA2FF"});
+  $("#mapview").css({"color": "black"});
 });
+
+$("#mapview").on("click", function(){
+  $(".calendar-section").animate({"right":"100%"},500);
+  $(".list-section").animate({"left":"100%"}, 500);
+  $("#listview").css({"color": "black"});
+  $("#calendarview").css({"color": "black"});
+  $("#mapview").css({"color": "#0AA2FF"});
+})
+
 
 var map
 var markers = []
