@@ -1,0 +1,27 @@
+require 'csv'
+require 'json'
+
+output = {
+  type: "Feature",
+  features: []
+}
+
+CSV.foreach('today.csv', headers: true) do |row|
+  output[:features].push({
+    "type" => "Feature",
+    "geometry" => {
+      "type" => "Point",
+      "coordinates" => [
+        row["Coordinates"] ? row["Coordinates"].split(', ')[0] : "",
+        row["Coordinates"] ? row["Coordinates"].split(', ')[1] : "",
+      ]
+    },
+    "properties" => {
+      "description" => row["Shows"],
+      "title" => row["Name"],
+      "marker-size" => "small"
+    }
+  })
+end
+
+File.open('output.json', 'w') { |f| f.write(JSON.generate(output)) }

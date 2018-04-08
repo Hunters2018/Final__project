@@ -118,4 +118,11 @@ function initMap() {
  //      }
 
  
+$("#listview").on("click", function(){
+  $(".list-section").animate({"left":0});
+});
 
+
+$("nav").on("click", function(){
+  $("nav").animate({"background-color": "blue"});
+});

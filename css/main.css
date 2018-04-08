@@ -189,6 +189,18 @@ input {
 	width: 100%
 }
 
+.list-section{
+	height:500px;
+	width: 100%;
+	left: 100%;
+	position: fixed;
+	background-color: green;
+}
+
+#listview {
+	color:red;
+}
+
 #list-map-box {
 	position: absolute;
 	top: -10px;
