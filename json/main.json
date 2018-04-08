@@ -180,7 +180,7 @@
         "title": "Farewell Bend Campground",
         "marker-size": "small"
       }
-    }
+    },
     {
       "type": "Feature",
       "geometry": {
@@ -871,5 +871,6 @@
         "marker-size": "small"
       }
     }
+
   ]
 }
