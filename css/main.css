@@ -262,8 +262,8 @@ p {
 }
 
 .event-section {
-	border:2px red solid;
 	background-color: black;
+	width: 100%;
 }
 
 .events {
@@ -288,7 +288,7 @@ p {
 
 .event-image {
 	height: 200px;
-	width: 200px;
+	width: 80%;
 	background-color: pink;
 	margin: auto;
 }
@@ -304,6 +304,21 @@ p {
 	color: grey;
 	line-height: 1.2;
 }
+
+.resetButton{
+	display: inline-block;
+	background-color: white;
+	height: 30px;
+	color: orange;
+	border-radius: 10px; 
+	border: 1.5px orange solid;
+	vertical-align: top;
+	padding-top: 5px;
+	margin-top: 25px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
 
 .queen-tag {
 	display: inline-block;
@@ -352,5 +367,71 @@ li {
 }
 
 .queens-search {
-	padding-left: 250px;
+	display: box;
+	height: 100px;
+	width: 76%;
+	border: 2px solid white;
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 12%;
+	margin-right: 12%;
+	background-color: white;
+	opacity: .95;
+	border-radius: 5px;
+	position: relative;
+	z-index: 100;
+}
+
+.queens-section {
+	width: 100%;
+	height: 1000px;
+	background-color: lightgrey;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 15px;
+}
+
+.queen-profile{
+	height: 290px;
+	width: 23%;
+	float: left;
+	background-color: white;
+	margin: 1%;
+	border-radius: 9px;
+	border:none;
+}
+
+.queen-pic {
+	height:160px;
+	width: 100%;
+	background-color: blue;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+
+.queen-info-box {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 16px;
+}
+
+.queen-name{
+	color: black;
+	text-align: left;
+}
+
+
+.queen-info-header {
+    color: grey;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+
+.queen-info {
+	color: darkgrey;
+	text-align: left;
+	font-weight: lighter;
 }

@@ -1,22 +1,22 @@
 $("#listview").on("click", function(){
-  $(".list-section").animate({"left":0}, 500);
-  $(".calendar-section").animate({"right":"100%"},500);
+  $(".list-section").animate({"left":0}, 350);
+  $(".calendar-section").animate({"right":"100%"},350);
   $("#listview").css({"color": "#0AA2FF"});
   $("#calendarview").css({"color": "black"});
   $("#mapview").css({"color": "black"});
 });
 
 $("#calendarview").on("click", function(){
-  $(".calendar-section").animate({"right":0}, 500);
-  $(".list-section").animate({"left":"100%"}, 500);
+  $(".calendar-section").animate({"right":0}, 350);
+  $(".list-section").animate({"left":"100%"}, 350);
   $("#listview").css({"color": "black"});
   $("#calendarview").css({"color": "#0AA2FF"});
   $("#mapview").css({"color": "black"});
 });
 
 $("#mapview").on("click", function(){
-  $(".calendar-section").animate({"right":"100%"},500);
-  $(".list-section").animate({"left":"100%"}, 500);
+  $(".calendar-section").animate({"right":"100%"},350);
+  $(".list-section").animate({"left":"100%"}, 350);
   $("#listview").css({"color": "black"});
   $("#calendarview").css({"color": "black"});
   $("#mapview").css({"color": "#0AA2FF"});
@@ -81,65 +81,20 @@ function initMap() {
   console.log('loading geojson')
   map.data.loadGeoJson(geojson_url, null, loadMarkers) ;
 
-  // Try HTML5 geolocation.
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var pos = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude
-      };
+  //Geolocation:
+  // if (navigator.geolocation) {
+  //   navigator.geolocation.getCurrentPosition(function(position) {
+  //     var pos = {
+  //       lat: position.coords.latitude,
+  //       lng: position.coords.longitude
+  //     };
 
-      map.setCenter(pos);
-    }, function() {
-      handleLocationError(true, infoWindow, map.getCenter());
-    });
-  } else {
-    // Browser doesn't support Geolocation
-    handleLocationError(false, infoWindow, map.getCenter());
-  }
+  //     map.setCenter(pos);
+  //   }, function() {
+  //     handleLocationError(true, infoWindow, map.getCenter());
+  //   });
+  // } else {
+  //   // Browser doesn't support Geolocation
+  //   handleLocationError(false, infoWindow, map.getCenter());
+  // }
 }
-
-// google.maps.event.addDomListener(window, 'load', initMap);
-  //means that the initMap function will be called when the window is loaded
-
-//-------
-
-//geo location: 
- // var map, infoWindow;
- //      function initMap() {
- //        map = new google.maps.Map(document.getElementById('map'), {
- //          center: {lat: 40.738565, lng: -73.976958},
- //          zoom: 13
- //        });
- //        infoWindow = new google.maps.InfoWindow;
-
- //        // Try HTML5 geolocation.
- //        if (navigator.geolocation) {
- //          navigator.geolocation.getCurrentPosition(function(position) {
- //            var pos = {
- //              lat: position.coords.latitude,
- //              lng: position.coords.longitude
- //            };
-
- //            infoWindow.setPosition(pos);
- //            infoWindow.setContent('Location found.');
- //            infoWindow.open(map);
- //            map.setCenter(pos);
- //          }, function() {
- //            handleLocationError(true, infoWindow, map.getCenter());
- //          });
- //        } else {
- //          // Browser doesn't support Geolocation
- //          handleLocationError(false, infoWindow, map.getCenter());
- //        }
- //      }
-
- //      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
- //        infoWindow.setPosition(pos);
- //        infoWindow.setContent(browserHasGeolocation ?
- //                              'Error: The Geolocation service failed.' :
- //                              'Error: Your browser doesn\'t support geolocation.');
- //        infoWindow.open(map);
- //      }
-
-
