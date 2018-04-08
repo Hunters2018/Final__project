@@ -180,6 +180,21 @@
         "title": "Farewell Bend Campground",
         "marker-size": "small"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.69771,
+          -73.934779
+        ]
+      },
+      "properties": {
+        "description": "Venue test",
+        "title": "venue test",
+        "marker-size": "small"
+      }
     }
   ]
 }

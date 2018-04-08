@@ -1,3 +1,14 @@
+ 
+$("#listview").on("click", function(){
+  $(".list-section").animate({"left":0});
+  $(".list-section").animate({"top":0}, 1000);
+});
+
+
+$("nav").on("click", function(){
+  $("nav").css({"background-color": "blue"});
+});
+
 var map
 var markers = []
 
@@ -117,13 +128,4 @@ function initMap() {
  //        infoWindow.open(map);
  //      }
 
- 
-// $("#listview").on("click", function(){
-//   $(".list-section").animate({"left":0});
-//   $(".list-section").animate({"top":0}, 1000);
-// });
 
-
-// $("nav").on("click", function(){
-//   $("nav").css({"background-color": "blue"});
-// });
