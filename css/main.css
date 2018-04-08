@@ -195,6 +195,7 @@ input {
 	left: 100%;
 	position: fixed;
 	background-color: green;
+	z-index:100;
 }
 
 #listview {

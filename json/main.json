@@ -181,5 +181,695 @@
         "marker-size": "small"
       }
     }
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.764078,
+          -73.993318
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.764904,
+          -73.987017
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.765341,
+          -73.986826
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.760072,
+          -73.966956
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.734297,
+          -74.002088
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.734044,
+          -74.002163
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.741057,
+          -74.007877
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.734172,
+          -74.000136
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.732836,
+          -74.009738
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.737924,
+          -74.003785
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.741,
+          -73.993241
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.744855,
+          -73.998317
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.760391,
+          -73.965733
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.764668,
+          -73.988932
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.76546,
+          -73.987898
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.751913,
+          -74.004326
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.74258,
+          -73.998405
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.733601,
+          -74.005481
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.767433,
+          -73.986654
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.761189,
+          -73.990207
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.733481,
+          -74.003424
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.721582,
+          -73.988719
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.802847,
+          -73.964386
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.734082,
+          -74.002509
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.762078,
+          -73.99054
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.765299,
+          -73.996061
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.722143,
+          -73.992199
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.760345,
+          -73.98727
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.759094,
+          -73.992845
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.713866,
+          -73.949563
+        ]
+      },
+      "properties": {
+        "description": "RuPaul's Drag Race Viewing Party (met)",
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.665477,
+          -73.989235
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.707077,
+          -73.923515
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.770358,
+          -73.912122
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.761793,
+          -73.923647
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.862068,
+          -73.925228
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.750145,
+          -73.880786
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.714527,
+          -73.951429
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.69771,
+          -73.934779
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.676302,
+          -73.980093
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.707357,
+          -73.947452
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.703601,
+          -73.914632
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.714027,
+          -73.934038
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.707198,
+          -73.922608
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.694628,
+          -73.902418
+        ]
+      },
+      "properties": {
+        "description": "Rupaul's Drag Race Viewing Party (the deep end)",
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    }
   ]
 }

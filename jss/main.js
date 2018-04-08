@@ -120,9 +120,10 @@ function initMap() {
  
 $("#listview").on("click", function(){
   $(".list-section").animate({"left":0});
+  $(".list-section").animate({"top":0}, 1000);
 });
 
 
 $("nav").on("click", function(){
-  $("nav").animate({"background-color": "blue"});
+  $("nav").css({"background-color": "blue"});
 });
