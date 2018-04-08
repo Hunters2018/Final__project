@@ -12,8 +12,8 @@ CSV.foreach('today.csv', headers: true) do |row|
     "geometry" => {
       "type" => "Point",
       "coordinates" => [
-        row["Coordinates"] ? row["Coordinates"].split(', ')[1].to_f : nil,
         row["Coordinates"] ? row["Coordinates"].split(', ')[0].to_f : nil,
+        row["Coordinates"] ? row["Coordinates"].split(', ')[1].to_f : nil,
       ]
     },
     "properties" => {
