@@ -181,22 +181,7 @@
         "marker-size": "small"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.934779,
-          40.69771
-        ]
-      },
-      "properties": {
-        "description": "Venue test",
-        "title": "venue test",
-        "marker-size": "small"
-      }
-    },
-    {
+     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -206,8 +191,8 @@
         ]
       },
       "properties": {
-        "description": "Lilith Lefae",
-        "title": "Hardware",
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -221,8 +206,8 @@
         ]
       },
       "properties": {
-        "description": "Sister Mary Helen",
-        "title": "Therapy",
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -236,8 +221,8 @@
         ]
       },
       "properties": {
-        "description": "Godiva Romance",
-        "title": "Industry",
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -251,8 +236,8 @@
         ]
       },
       "properties": {
-        "description": "Brenda Dharling",
-        "title": "Lips",
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -266,8 +251,8 @@
         ]
       },
       "properties": {
-        "description": "Chelsea Piers",
-        "title": "Monster Bar",
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -281,8 +266,8 @@
         ]
       },
       "properties": {
-        "description": "Catrina Lovelace",
-        "title": "The Stonewall Inn",
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -296,8 +281,8 @@
         ]
       },
       "properties": {
-        "description": "Ari Kiki",
-        "title": "The Standard (Le Bain)",
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -311,8 +296,8 @@
         ]
       },
       "properties": {
-        "description": "Vicky Boofont",
-        "title": "Pieces",
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -326,8 +311,308 @@
         ]
       },
       "properties": {
-        "description": "Deliah J Brooks",
-        "title": "Rockbar",
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003785,
+          40.737924
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993241,
+          40.741
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998317,
+          40.744855
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965733,
+          40.760391
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988932,
+          40.764668
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987898,
+          40.76546
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004326,
+          40.751913
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998405,
+          40.74258
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.005481,
+          40.733601
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986654,
+          40.767433
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990207,
+          40.761189
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003424,
+          40.733481
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988719,
+          40.721582
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964386,
+          40.802847
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002509,
+          40.734082
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99054,
+          40.762078
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996061,
+          40.765299
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992199,
+          40.722143
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98727,
+          40.760345
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992845,
+          40.759094
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -341,8 +626,203 @@
         ]
       },
       "properties": {
-        "description": "Thorgy Thor",
-        "title": "Metropolitan",
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989235,
+          40.665477
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.923515,
+          40.707077
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912122,
+          40.770358
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.923647,
+          40.761793
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925228,
+          40.862068
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880786,
+          40.750145
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951429,
+          40.714527
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934779,
+          40.69771
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.980093,
+          40.676302
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947452,
+          40.707357
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.914632,
+          40.703601
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934038,
+          40.714027
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922608,
+          40.707198
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     },
@@ -356,8 +836,53 @@
         ]
       },
       "properties": {
-        "description": "Zenobia",
-        "title": "The Deep End",
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
+        "marker-size": "small"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      },
+      "properties": {
+        "description": null,
+        "title": null,
         "marker-size": "small"
       }
     }
