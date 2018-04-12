@@ -79,7 +79,7 @@ function loadMarkers() {
     var latitude = feature.getGeometry().get().lat()
     var longitude = feature.getGeometry().get().lng()
     var titleText = feature.getProperty('title')
-    var performerText = feature.getProperty('performer')
+    var descriptionText = feature.getProperty('description')
     var showtimeText = feature.getProperty('time')
 
 
@@ -90,7 +90,7 @@ function loadMarkers() {
       map: map
      });
     
-    var content = "<div><h3>" + titleText + "</h3><p>Performers: " + performerText + "</p></div>" 
+    var content = "<div><h3>" + titleText + "</h3><p>Performers: " + descriptionText + "</p></div>" 
     
     // by default the infoWindow for each marker will stay open unless manually closed
     // using setContent and opening the window whenever a marker is clicked will
