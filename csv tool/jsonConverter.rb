@@ -24,8 +24,9 @@ CSV.foreach('today.csv', headers: true) do |row|
       "date" => row["Date"],
       "cover" => row["Cover"],
       "address" => row["Address"],
-      "city" => row["City"]
-      "time" => row["Time"]
+      "city" => row["City"],
+      "show" => row["ShowName"],
+      "time" => row["Time"],
     }
   })
 end

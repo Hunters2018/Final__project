@@ -82,6 +82,12 @@ function loadMarkers() {
     var descriptionText = feature.getProperty('description')
     var showtimeText = feature.getProperty('time')
     var cityText = feature.getProperty('city')
+    var showText = feature.getProperty('show')
+    var dateText = feature.getProperty('date')
+    var coverText = feature.getProperty('cover')
+    var showtypeText = feature.getProperty('showtype')
+    var addressText = feature.getProperty('address')
+    var timeText = feature.getProperty('time')
 
 
 //below attributes are all required for markers//
@@ -91,8 +97,9 @@ function loadMarkers() {
       map: map
      });
     
-    var content = "<div><h3>" + titleText + "</h3><p>Performers: " + descriptionText + "</p></div>" 
+    var content = "<div><h3>" + titleText + "</h3><p>Performers: " + descriptionText + "</p></div>" + cityText + timeText + addressText
     
+
     // by default the infoWindow for each marker will stay open unless manually closed
     // using setContent and opening the window whenever a marker is clicked will
     // cause the prior infoWindow to close
