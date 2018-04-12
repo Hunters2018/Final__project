@@ -20,6 +20,12 @@ CSV.foreach('today.csv', headers: true) do |row|
       "description" => row["Performer"],
       "title" => row["Venue"],
       "marker-size" => "small",
+      "showtype" => row["Type"],
+      "date" => row["Date"],
+      "cover" => row["Cover"],
+      "address" => row["Address"],
+      "city" => row["City"]
+      "time" => row["Time"]
     }
   })
 end

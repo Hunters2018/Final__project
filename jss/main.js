@@ -81,6 +81,7 @@ function loadMarkers() {
     var titleText = feature.getProperty('title')
     var descriptionText = feature.getProperty('description')
     var showtimeText = feature.getProperty('time')
+    var cityText = feature.getProperty('city')
 
 
 //below attributes are all required for markers//
