@@ -6,6 +6,7 @@
 
 body {
 	font-family: helvetica;
+	overflow-x: hidden;
 }
 
 header {
@@ -75,7 +76,7 @@ nav {
 }
 
 h2 {
-	color: #406174;
+	color: black;
 	margin-bottom: 15px;
 	font-size: 25px;
 }
@@ -118,6 +119,8 @@ h2 {
     z-index: 1;
     top: 55px;
     left: 0px;
+    height: 120px;
+    overflow: auto;
 }
 
 .dropdown-content li {
@@ -227,12 +230,16 @@ input {
 	z-index: 90;
 }
 
-#local-map-box{
+#world-view{
 	position: absolute;
 	top: 420px;
 	right: 45px;
 	background-color: white;
 	padding: 10px;
+}
+
+#world-view-text{
+	text-decoration: none;
 }
 
 p {
@@ -264,6 +271,7 @@ p {
 .event-section {
 	background-color: black;
 	width: 100%;
+	position: relative;
 }
 
 .events {
@@ -303,6 +311,15 @@ p {
 	font-size: 14px;
 	color: grey;
 	line-height: 1.2;
+}
+
+.carousel-arrow {
+    height: 472px;
+    width: 4%;
+    background-color: lightgrey;
+    top: 0;
+    position: absolute;
+    right: 0px;
 }
 
 .resetButton{
@@ -434,4 +451,23 @@ li {
 	color: darkgrey;
 	text-align: left;
 	font-weight: lighter;
+}
+
+
+.calendar-button {
+	display: inline-block;
+	height: 30px;
+	width: 100%;
+	margin-top: 25px;
+	color: white;
+	background-color: #0AA2FF;
+	border-radius: 3px; 
+	margin-left: 0px;
+	margin-right: 0px;
+	overflow: hidden;
+}
+
+
+#datepicker {
+	text-align: center;
 }

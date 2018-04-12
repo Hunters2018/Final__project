@@ -17,9 +17,10 @@ CSV.foreach('today.csv', headers: true) do |row|
       ]
     },
     "properties" => {
-      "description" => row["Performer"],
+      "performer" => row["Performer"],
       "title" => row["Venue"],
-      "marker-size" => "small"
+      "marker-size" => "small",
+      ""
     }
   })
 end
