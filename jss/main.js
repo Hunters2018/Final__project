@@ -97,7 +97,7 @@ function loadMarkers() {
       map: map
      });
     
-    var content = "<div><h3>" + titleText + "</h3><p>Performers: " + descriptionText + "</p></div>"
+    var content = "<div><h3>" + titleText + "</h3><p>Performers: " + timeText + "</p></div>"
     
 
     // by default the infoWindow for each marker will stay open unless manually closed
