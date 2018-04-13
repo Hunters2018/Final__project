@@ -1,7 +1,7 @@
 {
-  "type": "FeatureCollection",
+  "type": "Feature",
   "features": [
-   {
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -13,7 +13,14 @@
       "properties": {
         "description": "Lilith Lefae",
         "title": "Hardware",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Show",
+        "date": "2\/5\/18",
+        "cover": "No",
+        "address": "697 10th Ave, New York, NY 10036",
+        "city": "New York",
+        "show": "Fridays on Monday",
+        "time": "6:00pm"
       }
     },
     {
@@ -28,7 +35,14 @@
       "properties": {
         "description": "Sister Mary Helen",
         "title": "Therapy",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Show",
+        "date": "2\/5\/18",
+        "cover": "No",
+        "address": "348 W 52nd St, New York, NY 10019",
+        "city": "New York",
+        "show": "Broadway on 7th",
+        "time": "8:00pm"
       }
     },
     {
@@ -43,7 +57,14 @@
       "properties": {
         "description": "Godiva Romance",
         "title": "Industry",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Show",
+        "date": "2\/6\/18",
+        "cover": "No",
+        "address": "355 W 52nd St, New York, NY 10019",
+        "city": "New York",
+        "show": "Mouthful of Godiva",
+        "time": "6:00pm"
       }
     },
     {
@@ -58,7 +79,14 @@
       "properties": {
         "description": "Brenda Dharling",
         "title": "Lips",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Show",
+        "date": "2\/6\/18",
+        "cover": "No",
+        "address": "227 E 56th St, New York, NY 10022",
+        "city": "New York",
+        "show": "Turn me out Tuesdays",
+        "time": "8:00pm"
       }
     },
     {
@@ -73,7 +101,14 @@
       "properties": {
         "description": "Chelsea Piers",
         "title": "Monster Bar",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Show",
+        "date": "2\/6\/18",
+        "cover": "No",
+        "address": "80 Grove St, New York, NY 10014",
+        "city": "New York",
+        "show": "Booked, Blond, and Beautiful",
+        "time": "10:00pm"
       }
     },
     {
@@ -88,7 +123,14 @@
       "properties": {
         "description": "Catrina Lovelace",
         "title": "The Stonewall Inn",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Show",
+        "date": "2\/7\/18",
+        "cover": "No",
+        "address": "53 Christopher St, New York, NY 10014",
+        "city": "New York",
+        "show": "It Still Aint Friday",
+        "time": "6:00pm"
       }
     },
     {
@@ -103,7 +145,14 @@
       "properties": {
         "description": "Ari Kiki",
         "title": "The Standard (Le Bain)",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Show",
+        "date": "2\/7\/18",
+        "cover": "No",
+        "address": "848 Washington St, New York, NY 10014",
+        "city": "New York",
+        "show": "I wish a bitch would",
+        "time": "8:00pm"
       }
     },
     {
@@ -118,7 +167,14 @@
       "properties": {
         "description": "Vicky Boofont",
         "title": "Pieces",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Show",
+        "date": "2\/8\/18",
+        "cover": "No",
+        "address": "8 Christopher St, New York, NY 10014",
+        "city": "New York",
+        "show": "Thirsty Thursday Happy Hour",
+        "time": "6:00pm"
       }
     },
     {
@@ -133,7 +189,14 @@
       "properties": {
         "description": "Deliah J Brooks",
         "title": "Rockbar",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Show",
+        "date": "2\/8\/18",
+        "cover": "No",
+        "address": "185 Christopher St, New York, NY 10014",
+        "city": "New York",
+        "show": "2 Tons of Fun",
+        "time": "8:00pm"
       }
     },
     {
@@ -148,7 +211,14 @@
       "properties": {
         "description": "Thorgy Thor",
         "title": "Metropolitan",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Viewing Party",
+        "date": "2\/8\/18",
+        "cover": "No",
+        "address": "559 Lorimer St, Brooklyn, NY 11211",
+        "city": "Brooklyn",
+        "show": "RPDR Viewing Party",
+        "time": "8:00pm"
       }
     },
     {
@@ -163,7 +233,14 @@
       "properties": {
         "description": "Zenobia",
         "title": "The Deep End",
-        "marker-size": "small"
+        "marker-size": "small",
+        "showtype": "Viewing Party",
+        "date": "2\/8\/18",
+        "cover": "No",
+        "address": "1080 Wyckoff Ave, Ridgewood, NY 11385",
+        "city": "Brooklyn",
+        "show": "RPDR Viewing Party",
+        "time": "8:00pm"
       }
     }
   ]
