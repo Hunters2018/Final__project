@@ -2,7 +2,7 @@ require 'csv'
 require 'json'
 
 output = {
-  type: "Feature",
+  type: "FeatureCollection",
   features: []
 }
 
