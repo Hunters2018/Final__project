@@ -25,6 +25,35 @@
 		<section class="search clearfix">
 			<h2>Find drag shows near you</h2>
 			<!-- <div class= "line clearfix"></div> -->
+			<select data-dropdown="city" class= "button hoverbutton selecter city">
+			    <option value="city">City:</option>
+			    <option value="Manhattan">Manhattan</option>
+			    <option value="Brooklyn">Brooklyn</option>
+			    <option value="Queens">Queens</option>
+			  
+			</select>
+			<select class= "button hoverbutton selecter city">
+			    <option value="0">Performer:</option>
+			    <option value="1">Charlene</option>
+			    <option value="2">Thorgy Thor</option>
+			    <option value="3">Zenobia</option>
+			  
+			</select>
+			<select class= "button hoverbutton selecter city">
+			    <option value="0">Show Type:</option>
+			    <option id="city" value="1">Bingo</option>
+			    <option value="2">Karaoke</option>
+			    <option value="3">Brunch</option>
+			  
+			</select>
+			<select class= "button hoverbutton selecter city">
+			    <option value="0">Cover:</option>
+			    <option id="city" value="1">Free</option>
+			    <option value="2">$5</option>
+			    <option value="3"><$10</option>
+			  
+			</select>
+
 			<!-- <div class="hoverbutton">
 				<div class="button clearfix">
 					<div class="left-side-button">
@@ -40,19 +69,19 @@
     				<li href="#">Link 3</li>
  				</div>
 			</div> -->
-			<div class="hoverbutton">
-				<div class="button clearfix">
+		<!-- 	<div class="hoverbutton">
+				<div class="button clearfix dropdown">
 					<div class="left-side-button">
 						<span class="search-button-text">City</span>
 					</div>
 					<div class="right-side-button">
 						<span class="arrow"> > </span>
 					</div>
-					<div class="dropdown-content">
+					<div class="dropdown-content"> -->
 						<!-- <input type="text" placeholder="Search.."> -->
-    					<li href="#">Manhattan</li>
-    					<li href="#">Brooklyn</li>
-    					<li href="#">Queens</li>
+    					<!-- <li href="#" data-dropdown="city">Manhattan</li>
+    					<li href="#" data-dropdown="city">Brooklyn</li>
+    					<li href="#" data-dropdown="city">Queens</li>
  					</div>
 				</div>
 			</div>
@@ -64,9 +93,9 @@
 					<div class="right-side-button">
 						<span class="arrow"> > </span>
 					</div>
-					<div class="dropdown-content">
+					<div class="dropdown-content"> -->
 						<!-- <input type="text" placeholder="Search.."> -->
-    					<li href="#">Thorgy Thor</li>
+    				<!-- 	<li href="#">Thorgy Thor</li>
     					<li href="#">Sasha Velour</li>
     					<li href="#">Jinkx Monsoon</li>
     					<li href="#">Peppermint</li>
@@ -83,9 +112,9 @@
 					<div class="right-side-button">
 						<span class="arrow"> > </span>
 					</div>
-					<div class="dropdown-content">
+					<div class="dropdown-content"> -->
 						<!-- <input type="text" placeholder="Search.."> -->
-    					<li href="#">Drag Bingo</li>
+    			<!-- 		<li href="#">Drag Bingo</li>
     					<li href="#">Performance</li>
     					<li href="#">Drag Brunch</li>
     					<li href="#">Pageant</li>
@@ -108,7 +137,7 @@
     				<li href="#"> <$10 </li>
     				<li href="#"> <$20 </li>
  				</div>
-			</div>
+			</div> -->
 			<div class="goButton clearfix">
 				<p class="clearfix">Go</p>
 			</div>
@@ -123,7 +152,7 @@
 		<!--<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12102.883927399995!2d-73.97712585000001!3d40.68011634999999!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1521320520281" allowfullscreen></iframe>-->
 			<div id="map"></div>
 			<h3 id="world-view"><a id="world-view-text" href="world/index.html">World View</a></h3>
-			<h3 id="list-map-box"><span id="calendarview">List View</span> | <span id="mapview">Map View</span> | <span id="listview">Calendard View </span></h3>
+			<h3 id="list-map-box"><!-- <span id="calendarview">List View</span> |  --><span id="mapview">Map View</span> <!-- | <span id="listview">Calendard View </span> --></h3>
 		</section>
 		<section class="list-section">
 		</section>
@@ -137,46 +166,89 @@
 		<p id="featured-events">Featured Events</p>
 		<div class="events">
 			<div class="event-box">
-				<div class="event-image"></div>
-				<p class="event-name">Event Name</p>
-				<p class= "event-date">Event Date | Venue</p>
-				<p class="event-description">Event DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent </p>
-				<div class="queen-tag">Queen1</div>
-				<div class="queen-tag">Queen2</div>
-				<div class="queen-tag">Queen3</div>
+				<img class="event-image" src="images/rainingMen.jpg"/>
+				<p class="event-name">Raining Men</p>
+				<p class= "event-date">April 18th @ Boots and Saddles</p>
+				<p class="event-description">Featuring songs by Judy Garland, Shirley Bassey, Barbara Streisand, and more! Shows at 10pm </p>
+				<div class="queen-tag">Chris Ponka,</div>
+				<div class="queen-tag">Angela Browne,</div>
+				<div class="queen-tag"> Kameron Michaels</div>
 			</div>
 			<div class="event-box">
-				<div class="event-image"></div>
-					<p class="event-name">Event Name</p>
-					<p class= "event-date">Event Date | Venue</p>
-					<p class="event-description">Event DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent </p>
-					<div class="queen-tag">Queen1</div>
-					<div class="queen-tag">Queen2</div>
-					<div class="queen-tag">Queen3</div>
+				<img class="event-image" src="images/dragBingo.jpg"/>
+					<p class="event-name">Drag Bingo</p>
+					<p class= "event-date">April 25th @ Monster</p>
+					<p class="event-description">A hysterical night of drag queen bingo, comedy, shows, and cash prizes!</p>
+					<div class="queen-tag">Sally Fields,</div>
+					<div class="queen-tag">Carmen Carrera,</div>
+					<div class="queen-tag">Manila Luzon</div>
 			</div>
 			<div class="event-box">
-				<div class="event-image"></div>
-					<p class="event-name">Event Name</p>
-					<p class= "event-date">Event Date | Venue</p>
-					<p class="event-description">Event DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent </p>
-					<div class="queen-tag">Queen1</div>
-					<div class="queen-tag">Queen2</div>
-					<div class="queen-tag">Queen3</div>
+				<img class="event-image" src="images/bushwig.jpg"/>
+					<p class="event-name">Bushwig</p>
+					<p class= "event-date">April 20th @ Littlefield</p>
+					<p class="event-description">Brookyln's finest- including Horrorchata, Charlene, Merry Cherry, and the Salami Sisters. Tickets sold here.</p>
+					<div class="queen-tag">Charlene,</div>
+					<div class="queen-tag">Merry Cherry,</div>
+					<div class="queen-tag">Horrorchata</div>
 			</div>
 			<div class="event-box">
-				<div class="event-image"></div>
-					<p class="event-name">Event Name</p>
-					<p class= "event-date">Event Date | Venue</p>
-					<p class="event-description">Event DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent DescriptionEvent </p>
-					<div class="queen-tag">Queen1</div>
-					<div class="queen-tag">Queen2</div>
-					<div class="queen-tag">Queen3</div>
+				<img class="event-image" src="images/dragcon.jpg">
+					<p class="event-name">Rupaul's DragCon</p>
+					<p class= "event-date">May 9th @ the Javitts Center</p>
+					<p class="event-description">Meet and Greets, panels, and merch all with the queens of Rupaul's Drag Race and the cast of the World of Wonder</p>
+					<div class="queen-tag">Rupaul,</div>
+					<div class="queen-tag">Raven,</div>
+					<div class="queen-tag">Raja</div>
 			</div>
 		</div>
 		<div class="carousel-arrow">
-			<p>></p>
+			<p id="carousel-arrow">></p>
+		</div>
+		<div class="carousel-arrow2">
+			<p id="carousel-arrow"><</p>
+		</div>
+		<div class="events2">
+			<div class="event-box">
+				<img class="event-image" src="images/dragFactory.jpg"/>
+				<p class="event-name">Raining Men</p>
+				<p class= "event-date">April 18th @ Boots and Saddles</p>
+				<p class="event-description">Featuring songs by Judy Garland, Shirley Bassey, Barbara Streisand, and more! Shows at 10pm </p>
+				<div class="queen-tag">Chris Ponka,</div>
+				<div class="queen-tag">Angela Browne,</div>
+				<div class="queen-tag"> Kameron Michaels</div>
+			</div>
+			<div class="event-box">
+				<img class="event-image" src="images/showLoungeReview.png"/>
+					<p class="event-name">Drag Bingo</p>
+					<p class= "event-date">April 25th @ Monster</p>
+					<p class="event-description">A hysterical night of drag queen bingo, comedy, shows, and cash prizes!</p>
+					<div class="queen-tag">Sally Fields,</div>
+					<div class="queen-tag">Carmen Carrera,</div>
+					<div class="queen-tag">Manila Luzon</div>
+			</div>
+			<div class="event-box">
+				<img class="event-image" src="images/thePantiShow.jpg"/>
+					<p class="event-name">Bushwig</p>
+					<p class= "event-date">April 20th @ Littlefield</p>
+					<p class="event-description">Brookyln's finest- including Horrorchata, Charlene, Merry Cherry, and the Salami Sisters. Tickets sold here.</p>
+					<div class="queen-tag">Charlene,</div>
+					<div class="queen-tag">Merry Cherry,</div>
+					<div class="queen-tag">Horrorchata</div>
+			</div>
+			<div class="event-box">
+				<img class="event-image" src="images/prideDragShow.jpg">
+					<p class="event-name">Rupaul's DragCon</p>
+					<p class= "event-date">May 9th @ the Javitts Center</p>
+					<p class="event-description">Meet and Greets, panels, and merch all with the queens of Rupaul's Drag Race and the cast of the World of Wonder</p>
+					<div class="queen-tag">Rupaul,</div>
+					<div class="queen-tag">Raven,</div>
+					<div class="queen-tag">Raja</div>
+			</div>
 		</div>
 		
+		</div>
+
 	</section>
 	<!-- <div class="event-toggle">
 			<p class="event-arrow">></p>

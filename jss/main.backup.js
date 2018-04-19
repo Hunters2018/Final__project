@@ -1,6 +1,3 @@
-var markers = []
-var shows;
-var map;
 
 //toggle for map section
 $("#listview").on("click", function(){
@@ -40,7 +37,12 @@ $(".carousel-arrow2").on("click", function(){
   $(".events").animate({"left":"0%"}, 500);
   $(".carousel-arrow2").toggle();
   $(".carousel-arrow").toggle();
-});
+})
+
+
+//mapstuff 
+var map;
+var markerTest;
 
 //creating a map (note- there is script in the HTML that runs this when the page loads)
 function initMap() {
@@ -58,39 +60,68 @@ function initMap() {
     map = new google.maps.Map(map_document,map_options);
       //using Map constructor- pass map_options and map div (aka map_document) to create 'map' object
 
-
-    //get the shows from the json file
-    $.getJSON( "https://raw.githubusercontent.com/Hunters2018/Final__project/master/json/main.json", function( data ) {
-      shows = data["features"];
-      createMarkers();
+    //// TEST ///
+    var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+    markerTest = new google.maps.Marker({
+        position: myLatlng,
+        title:"Hello World!"
     });
 
+    // To add the marker to the map, call setMap();
+    markerTest.setMap(map);
+    //// TEST ///
+    
+    // loadMarkers();
     console.log(markers);
  
+  //Geolocation:
+  // if (navigator.geolocation) {
+  //   navigator.geolocation.getCurrentPosition(function(position) {
+  //     var pos = {
+  //       lat: position.coords.latitude,
+  //       lng: position.coords.longitude
+  //     };
+
+  //     map.setCenter(pos);
+  //   }, function() {
+  //     handleLocationError(true, infoWindow, map.getCenter());
+  //   });
+  // } else {
+  //   // Browser doesn't support Geolocation
+  //   handleLocationError(false, infoWindow, map.getCenter());
+  // }
 }
 
+function loadMarkers(){
+  geojson_url = "https://raw.githubusercontent.com/Hunters2018/Final__project/master/json/main.json";
+    console.log('loading geojson')
+    map.data.loadGeoJson(geojson_url, null, createMarkers) ;
+}
+
+
+var markers = []
 
 //iterate through the map json Features to create markers + info window
 function createMarkers() {
   console.log('creating markers')
   var infoWindow = new google.maps.InfoWindow()
   
-  for (var i=0; i< shows.length; i++){
+  map.data.forEach(function(feature) {
     
     // geojson format is [longitude, latitude] but google maps marker position attribute
     // expects [latitude, longitude]
-    var latitude = shows[i].geometry.coordinates[1];
-    var longitude = shows[i].geometry.coordinates[0];
-    var titleText = shows[i].properties.title;
-    var descriptionText = shows[i].properties.description;
-    var showtimeText = shows[i].properties.time;
-    var cityText = shows[i].properties.city;
-    var showText = shows[i].properties.show;
-    var dateText = shows[i].properties.date;
-    var coverText = shows[i].properties.cover;
-    var showtypeText = shows[i].properties.showtype;
-    var addressText = shows[i].properties.address;
-    var timeText = shows[i].properties.time;
+    var latitude = feature.getGeometry().get().lat()
+    var longitude = feature.getGeometry().get().lng()
+    var titleText = feature.getProperty('title')
+    var descriptionText = feature.getProperty('description')
+    var showtimeText = feature.getProperty('time')
+    var cityText = feature.getProperty('city')
+    var showText = feature.getProperty('show')
+    var dateText = feature.getProperty('date')
+    var coverText = feature.getProperty('cover')
+    var showtypeText = feature.getProperty('showtype')
+    var addressText = feature.getProperty('address')
+    var timeText = feature.getProperty('time')
 
 
 //below attributes are all required for markers//
@@ -113,9 +144,15 @@ function createMarkers() {
           infoWindow.open(map, marker)
         });
     markers.push(marker)
-  };
+  });
 }
 
+var shows;
+
+//get the shows from the json file
+$.getJSON( "https://raw.githubusercontent.com/Hunters2018/Final__project/master/json/main.json", function( data ) {
+  shows = data["features"];
+});
 
 function setMapOnAll(map) {
   for (var i = 0; i < markers.length; i++) {
@@ -123,9 +160,15 @@ function setMapOnAll(map) {
   }
 }
 
-function clearMarkers() {
+ function clearMarkers() {
   setMapOnAll(null);
 }
+
+ $("nav").on("click", function(){
+  clearMarkers();
+  console.log("test");
+ })     
+
 
 $(".selecter").on("change", function (){
   // initMap();
@@ -133,7 +176,8 @@ $(".selecter").on("change", function (){
   var option = $(this).val();
   var dropdown = $(this).attr("data-dropdown");
   // console.log(option, dropdown,map);
-
+  markerTest.setMap(null);
+  
   for (var i=0; i< shows.length; i++){
     map.data.setStyle({visible: false});
 
@@ -143,9 +187,9 @@ $(".selecter").on("change", function (){
       // console.log(shows[i]);
       // console.log(markers[i]);
       // markers[i].setVisible(true);
-      markers[i].setMap(map);
+      // markers[i].setMap(map);
     } else {
-      markers[i].setMap(null);
+      // markers[i].setVisible(false);
     }
   }
 })

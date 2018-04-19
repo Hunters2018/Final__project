@@ -22,6 +22,7 @@ header {
 	width: 100%;
 }
 
+
 h1 {
 	font-size: 36px;
 	font-style: bold;
@@ -103,6 +104,7 @@ h2 {
 	overflow: hidden;
 }
 
+
 .hoverbutton {
     position: relative;
     display: inline-block;
@@ -120,7 +122,7 @@ h2 {
     top: 55px;
     left: 0px;
     height: 120px;
-    overflow: auto;
+    overflow: scroll;
 }
 
 .dropdown-content li {
@@ -272,6 +274,8 @@ p {
 	background-color: black;
 	width: 100%;
 	position: relative;
+	height: 472px;
+	overflow: hidden;
 }
 
 .events {
@@ -280,7 +284,21 @@ p {
 	color: white;
 	padding-left: 60px;
 	padding-right: 60px;
+	position: relative;
+    left: 0%;
 }
+
+.events2 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    left: 100%;
+    top: -400px;
+}
+
 
 .event-date {
 	padding-top: 5px;
@@ -316,10 +334,28 @@ p {
 .carousel-arrow {
     height: 472px;
     width: 4%;
-    background-color: lightgrey;
+    background-color: #778899;
     top: 0;
     position: absolute;
     right: 0px;
+    z-index: 100;
+    color: white;
+}
+
+.carousel-arrow2 {
+    height: 472px;
+    width: 4%;
+    background-color: #778899;
+    top: 0;
+    position: absolute;
+    right: 96%;
+    z-index: 100;
+    display: none;
+    color: white;
+}
+
+#carousel-arrow{
+	padding-top: 224px;
 }
 
 .resetButton{
@@ -339,7 +375,6 @@ p {
 
 .queen-tag {
 	display: inline-block;
-	background-color: white;
 	margin-top: 5px;
 	color: pink;
 }
@@ -467,6 +502,14 @@ li {
 	overflow: hidden;
 }
 
+.infowindow-text {
+	text-align: center;
+}
+
+.infowindow-header {
+	font-weight: bold;
+	font-size: 15px;
+}
 
 #datepicker {
 	text-align: center;
