@@ -196,6 +196,29 @@ $(".showtypeselecter").on("change", function (){
   }
 })
 
+$(".coverselecter").on("change", function (){
+  var option = $(this).val();
+  var dropdown = $(this).attr("data-dropdown");
+  
+  for (var i=0; i< shows.length; i++){
+    map.data.setStyle({visible: false});
+
+    // console.log(shows[i]["properties"]["city"])
+    // console.log(shows[i]["geometry"]["coordinates"][1])
+    if (option === shows[i]["properties"]["cover"]){
+      // console.log(shows[i]);
+      // console.log(markers[i]);
+      // markers[i].setVisible(true);
+      console.log(option);
+      console.log(shows[i]);
+
+      markers[i].setMap(map);
+    } else {
+      markers[i].setMap(null);
+    }
+  }
+})
+
 $(".resetButton").on("click", function() {
   initMap();
 })
