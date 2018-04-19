@@ -75,7 +75,7 @@ function createMarkers() {
   console.log('creating markers')
   var infoWindow = new google.maps.InfoWindow()
   
-  for (var i=0; i< shows.length; i++){
+  for(var i=0; i< shows.length; i++){
     
     // geojson format is [longitude, latitude] but google maps marker position attribute
     // expects [latitude, longitude]
@@ -127,13 +127,10 @@ function clearMarkers() {
   setMapOnAll(null);
 }
 
-$(".selecter").on("change", function (){
-  // initMap();
-  // debugger;
+$(".cityselecter").on("change", function (){
   var option = $(this).val();
   var dropdown = $(this).attr("data-dropdown");
-  // console.log(option, dropdown,map);
-
+  
   for (var i=0; i< shows.length; i++){
     map.data.setStyle({visible: false});
 
@@ -143,11 +140,64 @@ $(".selecter").on("change", function (){
       // console.log(shows[i]);
       // console.log(markers[i]);
       // markers[i].setVisible(true);
+      console.log(option);
+      console.log(shows[i]);
+
       markers[i].setMap(map);
     } else {
       markers[i].setMap(null);
     }
   }
+})
+
+$(".performerselecter").on("change", function (){
+  var option = $(this).val();
+  var dropdown = $(this).attr("data-dropdown");
+  
+  for (var i=0; i< shows.length; i++){
+    map.data.setStyle({visible: false});
+
+    // console.log(shows[i]["properties"]["city"])
+    // console.log(shows[i]["geometry"]["coordinates"][1])
+    if (option === shows[i]["properties"]["description"]){
+      // console.log(shows[i]);
+      // console.log(markers[i]);
+      // markers[i].setVisible(true);
+      console.log(option);
+      console.log(shows[i]);
+
+      markers[i].setMap(map);
+    } else {
+      markers[i].setMap(null);
+    }
+  }
+})
+
+$(".showtypeselecter").on("change", function (){
+  var option = $(this).val();
+  var dropdown = $(this).attr("data-dropdown");
+  
+  for (var i=0; i< shows.length; i++){
+    map.data.setStyle({visible: false});
+
+    // console.log(shows[i]["properties"]["city"])
+    // console.log(shows[i]["geometry"]["coordinates"][1])
+    if (option === shows[i]["properties"]["showtype"]){
+      // console.log(shows[i]);
+      // console.log(markers[i]);
+      // markers[i].setVisible(true);
+      console.log(option);
+      console.log(shows[i]);
+
+      markers[i].setMap(map);
+    } else {
+      markers[i].setMap(null);
+    }
+  }
+})
+
+$(".resetButton").on("click", function() {
+  initMap();
 })
 
 // for each select, it goes through once and kicks out elements that dont match

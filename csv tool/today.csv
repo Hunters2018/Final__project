@@ -1,12 +1,12 @@
 ShowName,Date,Time,Performer,Venue,Cover,Type,Address,Coordinates,City
-Fridays on Monday,2/5/18,6:00pm,Lilith Lefae,Hardware,No,Show,"697 10th Ave, New York, NY 10036","40.764078, -73.993318",New York
-Broadway on 7th,2/5/18,8:00pm,Sister Mary Helen,Therapy,No,Show,"348 W 52nd St, New York, NY 10019","40.764904, -73.987017",New York
-Mouthful of Godiva,2/6/18,6:00pm,Godiva Romance,Industry,No,Show,"355 W 52nd St, New York, NY 10019","40.765341, -73.986826",New York
-Turn me out Tuesdays,2/6/18,8:00pm,Brenda Dharling,Lips,No,Show,"227 E 56th St, New York, NY 10022","40.760072, -73.966956",New York
-"Booked, Blond, and Beautiful",2/6/18,10:00pm,Chelsea Piers,Monster Bar,No,Show,"80 Grove St, New York, NY 10014","40.734297, -74.002088",New York
-It Still Aint Friday,2/7/18,6:00pm,Catrina Lovelace,The Stonewall Inn,No,Show,"53 Christopher St, New York, NY 10014","40.734044, -74.002163",New York
-I wish a bitch would,2/7/18,8:00pm,Ari Kiki,The Standard (Le Bain),No,Show,"848 Washington St, New York, NY 10014","40.741057, -74.007877",New York
-Thirsty Thursday Happy Hour,2/8/18,6:00pm,Vicky Boofont,Pieces,No,Show,"8 Christopher St, New York, NY 10014","40.734172, -74.000136",New York
-2 Tons of Fun,2/8/18,8:00pm,Deliah J Brooks,Rockbar,No,Show,"185 Christopher St, New York, NY 10014","40.732836, -74.009738",New York
-RPDR Viewing Party,2/8/18,8:00pm,Thorgy Thor,Metropolitan,No,Viewing Party,"559 Lorimer St, Brooklyn, NY 11211","40.713866, -73.949563",Brooklyn
-RPDR Viewing Party,2/8/18,8:00pm,Zenobia,The Deep End,No,Viewing Party,"1080 Wyckoff Ave, Ridgewood, NY 11385","40.694628, -73.902418",Brooklyn
+Fridays on Monday,2/5/18,6:00pm,Lilith Lefae,Hardware,Free,Show,"697 10th Ave, New York, NY 10036","40.764078, -73.993318",New York
+Broadway on 7th,2/5/18,8:00pm,Sister Mary Helen,Therapy,Free,Show,"348 W 52nd St, New York, NY 10019","40.764904, -73.987017",New York
+Mouthful of Godiva,2/6/18,6:00pm,Godiva Romance,Industry,$5 ,Show,"355 W 52nd St, New York, NY 10019","40.765341, -73.986826",New York
+Turn me out Tuesdays,2/6/18,8:00pm,Brenda Dharling,Lips,Free,Show,"227 E 56th St, New York, NY 10022","40.760072, -73.966956",New York
+"Booked, Blond, and Beautiful",2/6/18,10:00pm,Chelsea Piers,Monster Bar,$5 ,Show,"80 Grove St, New York, NY 10014","40.734297, -74.002088",New York
+It Still Aint Friday,2/7/18,6:00pm,Catrina Lovelace,The Stonewall Inn,$5 ,Show,"53 Christopher St, New York, NY 10014","40.734044, -74.002163",New York
+I wish a bitch would,2/7/18,8:00pm,Ari Kiki,The Standard (Le Bain),Free,Show,"848 Washington St, New York, NY 10014","40.741057, -74.007877",New York
+Thirsty Thursday Happy Hour,2/8/18,6:00pm,Vicky Boofont,Pieces,$5 ,Show,"8 Christopher St, New York, NY 10014","40.734172, -74.000136",New York
+2 Tons of Fun,2/8/18,8:00pm,Deliah J Brooks,Rockbar,$5 ,Show,"185 Christopher St, New York, NY 10014","40.732836, -74.009738",New York
+RPDR Viewing Party,2/8/18,8:00pm,Thorgy Thor,Metropolitan,$5 ,Viewing Party,"559 Lorimer St, Brooklyn, NY 11211","40.713866, -73.949563",Brooklyn
+RPDR Viewing Party,2/8/18,8:00pm,Zenobia,The Deep End,$5 ,Viewing Party,"1080 Wyckoff Ave, Ridgewood, NY 11385","40.694628, -73.902418",Brooklyn
