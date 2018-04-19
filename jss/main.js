@@ -1,7 +1,7 @@
 var markers = []
 var shows;
 var map;
-
+var infoWindow;
 
 $(".hamburger").on("click", function () {
   $("nav").animate({"left": 0});
@@ -80,24 +80,24 @@ function initMap() {
 //iterate through the map json Features to create markers + info window
 function createMarkers() {
   console.log('creating markers')
-  var infoWindow = new google.maps.InfoWindow()
+  infoWindow = new google.maps.InfoWindow()
   
-  for(var i=0; i< shows.length; i++){
-    
+  shows.forEach(function(show) {
+
     // geojson format is [longitude, latitude] but google maps marker position attribute
     // expects [latitude, longitude]
-    var latitude = shows[i].geometry.coordinates[1];
-    var longitude = shows[i].geometry.coordinates[0];
-    var titleText = shows[i].properties.title;
-    var descriptionText = shows[i].properties.description;
-    var showtimeText = shows[i].properties.time;
-    var cityText = shows[i].properties.city;
-    var showText = shows[i].properties.show;
-    var dateText = shows[i].properties.date;
-    var coverText = shows[i].properties.cover;
-    var showtypeText = shows[i].properties.showtype;
-    var addressText = shows[i].properties.address;
-    var timeText = shows[i].properties.time;
+    var latitude = show.geometry.coordinates[1];
+    var longitude = show.geometry.coordinates[0];
+    var titleText = show.properties.title;
+    var descriptionText = show.properties.description;
+    var showtimeText = show.properties.time;
+    var cityText = show.properties.city;
+    var showText = show.properties.show;
+    var dateText = show.properties.date;
+    var coverText = show.properties.cover;
+    var showtypeText = show.properties.showtype;
+    var addressText = show.properties.address;
+    var timeText = show.properties.time;
 
 
 //below attributes are all required for markers//
@@ -115,12 +115,13 @@ function createMarkers() {
     // cause the prior infoWindow to close
 
     marker.addListener('click', function() {
+        console.log(marker.title);
           infoWindow.close()
           infoWindow.setContent(content)
           infoWindow.open(map, marker)
         });
     markers.push(marker)
-  };
+  });
 }
 
 
@@ -230,6 +231,7 @@ $("#reset").on("click", function() {
   for (var i=0; i< shows.length; i++){
       markers[i].setMap(map);
   }
+  infoWindow.close();
 })
 
 // for each select, it goes through once and kicks out elements that dont match
