@@ -2,6 +2,13 @@ var markers = []
 var shows;
 var map;
 
+
+$(".hamburger").on("click", function () {
+  $("nav").animate({"left": 0});
+});
+
+// 2. on clicking of the close button in the nav, hide the nav by animating it's left value back to 100%
+
 //toggle for map section
 $("#listview").on("click", function(){
   $(".list-section").animate({"left":0}, 350);
@@ -219,8 +226,10 @@ $(".coverselecter").on("change", function (){
   }
 })
 
-$(".resetButton").on("click", function() {
-  initMap();
+$("#reset").on("click", function() {
+  for (var i=0; i< shows.length; i++){
+      markers[i].setMap(map);
+  }
 })
 
 // for each select, it goes through once and kicks out elements that dont match

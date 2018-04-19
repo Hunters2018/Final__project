@@ -18,6 +18,13 @@
 				<a class="nav-link" href="queens/index.html">Performers</a>
 				<a class="nav-link" href="contact_us/index.html">Contact Us</a>
 		</nav>
+		<div class="hamburger">
+        <span></span><span></span><span></span>
+    	</div>
+    	<div class="close-nav">
+          <span class="left"></span><span class="right"></span>
+        </div>
+
 	</header>
 	
 	<div class="search-section clearfix">
@@ -25,12 +32,12 @@
 		<section class="search clearfix">
 			<h2>Find drag shows near you</h2>
 			<!-- <div class= "line clearfix"></div> -->
+			<form>
 			<select data-dropdown="city" class= "button hoverbutton cityselecter city">
-			    <option value="city">City:</option>
-			    <option value="New York">New York</option>
+			    <option class="dropdownname" selected="selected" value="city">City:</option>
+			    <option value="Manhattan">Manhattan</option>
 			    <option value="Brooklyn">Brooklyn</option>
 			    <option value="Queens">Queens</option>
-			  
 			</select>
 			<select data-dropdown="performer" class= "button hoverbutton performerselecter city">
 			    <option value="performer">Performer:</option>
@@ -53,7 +60,8 @@
 			    <option value="<$10"><$10</option>
 			  
 			</select>
-
+			<input class="resetButton clearfix" id="reset" type="reset" value="reset"/>
+			</form>
 			<!-- <div class="hoverbutton">
 				<div class="button clearfix">
 					<div class="left-side-button">
@@ -138,12 +146,12 @@
     				<li href="#"> <$20 </li>
  				</div>
 			</div> -->
-			<div class="goButton clearfix">
+			<!-- <div class="goButton clearfix">
 				<p class="clearfix">Go</p>
-			</div>
-			<div class="resetButton clearfix">
+			</div> -->
+			<!-- <div class="resetButton clearfix">
 				<p class="clearfix">Reset</p>
-			</div>
+			</div> -->
 		<!-- 	<p id="advanced_options" href="ott.vimeo.com">Advanced options</p> -->
 		</section>	
 	</div>
